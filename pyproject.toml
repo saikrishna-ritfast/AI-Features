@@ -1,0 +1,5 @@
+[tool.pyrefly]
+# Point Pyrefly to the local virtual environment so it can resolve
+# all installed packages (fastapi, google-genai, pydantic, etc.)
+python_interpreter = ".venv/Scripts/python.exe"
+project_includes = ["."]

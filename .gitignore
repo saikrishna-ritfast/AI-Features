@@ -1,0 +1,26 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Local configuration - keep secrets out of version control
+.env
+.env.*
+
+# IDE settings
+.vscode/
+.idea/
+
+# Temp files
+temp/
+tmp/
+*.log
+
+# Windows batch runner
+run.bat
