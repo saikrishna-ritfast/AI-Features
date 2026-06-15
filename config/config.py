@@ -13,5 +13,6 @@ class Settings:
     HOST: str = os.getenv("HOST", "127.0.0.1")
     PORT: int = int(os.getenv("PORT", "8000"))
     ALLOWED_EXTENSIONS: set = {".mp3", ".wav", ".m4a", ".ogg", ".flac", ".webm"}
+    MAX_DOWNLOAD_BYTES: int = 50 * 1024 * 1024  # 50 MB
 
 settings = Settings()
